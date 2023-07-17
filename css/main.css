@@ -1,0 +1,140 @@
+nav {
+  flex-direction: column;
+  grid-area: navbar;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 80px 0;
+}
+
+.main-content {
+  padding: 100px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-rows: auto;
+}
+
+.ads img {
+  max-width: 300px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+main img {
+  width: 100%;
+}
+
+/* grid formatting */
+
+.especie {
+}
+
+.caracteristicas {
+  gap: 40px;
+  padding-bottom: 50px;
+  justify-self: center;
+}
+
+.numero {
+  background: var(--cor-p2);
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+}
+
+.unidade {
+  padding: 10px;
+  border-radius: 0 0 4px 4px;
+}
+
+.caixa {
+  box-shadow: 2px 2px 2px #ccc;
+  border-radius: 4px;
+}
+
+.grid1 {
+  grid-column: 1 / -1;
+  padding-bottom: 40px;
+}
+
+.grid2 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+
+.grid4 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  align-self: end;
+}
+
+.grid3 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  line-height: 2.4rem;
+  padding: 0 20px;
+}
+
+.grid5 {
+  padding: 20px 20px;
+}
+
+.citacao {
+  background: var(--cor-p3);
+  padding: 10px 20px;
+  grid-column: 1 / -1;
+  border-radius: 10px;
+}
+
+.grid6 {
+  background: var(--cor-p3);
+
+  border-radius: 10px;
+
+  color: #fff;
+  grid-column: 1 / 2;
+  grid-row: 6 / 8;
+  max-height: 400px;
+}
+
+.grid6 li + li {
+  border-top: solid 1px var(--cor-3);
+  width: 300px;
+  padding-top: 20px;
+}
+
+.grid7 {
+  grid-column: 2 / -1;
+  grid-row: 6 / 7;
+}
+
+.grid8 {
+  align-self: end;
+  grid-column: 2 / -1;
+  grid-row: 7 / 7;
+}
+
+.grid9 {
+  grid-column: 1 / -1;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
+main ul {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}

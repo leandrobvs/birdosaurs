@@ -1,0 +1,59 @@
+@import url(./global.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.estrutura {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'navbar main ads'
+    'footer footer footer';
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+:root {
+  --cor-p1: #8a361c;
+  --cor-p2: #d55a34;
+  --cor-p3: #eaac99;
+  --cor-0: #ffffff;
+  --cor-1: #f7f7f7;
+  --cor-2: #ededed;
+  --cor-3: #dedede;
+  --cor-4: #cccccc;
+  --cor-5: #b2b2b2;
+  --cor-6: #9c9c9c;
+  --cor-7: #717171;
+  --cor-8: #595959;
+  --cor-9: #404040;
+  --cor-10: #2e2e2e;
+  --cor-11: #111111;
+  --cor-12: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.corp2 {
+  color: var(--cor-p2);
+}
+
+img {
+  border-radius: 5px;
+}

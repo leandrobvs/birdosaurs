@@ -1,0 +1,6 @@
+footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  background-color: var(--cor-p2);
+}
