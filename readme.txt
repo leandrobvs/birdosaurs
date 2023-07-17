@@ -1,1 +1,1 @@
-Vectors and icons by <a href="https://pedropsmachado.com/?ref=svgrepo.com" target="_blank">Pedro Machado</a> in CC Attribution License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>
+estudo grid css
